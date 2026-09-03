@@ -35,7 +35,10 @@
     "ondertitel": "Medisch pedicure in Bergen NH",
     "intro": "In mijn salon in Bergen en ambulant - dus bij u thuis. Behandeling alleen op afspraak.",
     "knop_bellen": "Bel 06-46512650",
-    "knop_whatsapp": "Stuur een WhatsApp"
+    "_over_korte_knoppen": "Op een telefoon zijn de knoppen smal. Dan wordt de korte tekst hieronder getoond in plaats van de lange.",
+    "knop_bellen_kort": "Bellen",
+    "knop_whatsapp": "Stuur een WhatsApp",
+    "knop_whatsapp_kort": "WhatsApp"
   },
   "over_mij": {
     "kop": "Over mij",
