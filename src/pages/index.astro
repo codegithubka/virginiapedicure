@@ -20,6 +20,8 @@ const dagen = [
 /** "50,00" gets a euro sign; "In overleg" does not. */
 const toonPrijs = (p: string) => (/\d/.test(p) ? `€ ${p}` : p);
 
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+
 const titel = `${praktijk.naam} — ${praktijk.beroep} in ${praktijk.plaats}`;
 const omschrijving =
   `Medisch pedicure in Bergen NH. Behandeling in de salon en ambulant, bij u thuis. ` +
@@ -92,7 +94,7 @@ const omschrijving =
       <ul class="tick-list klachten-list">
         {klachten.lijst.map((k) => <li>{k}</li>)}
       </ul>
-      <p><a href="/voetklachten.html">{klachten.link_tekst}</a></p>
+      <p><a href={`${base}voetklachten.html`}>{klachten.link_tekst}</a></p>
 
       <dl class="tarieven">
         {tarieven.behandelingen.map((b) => (

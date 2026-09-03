@@ -1,0 +1,56 @@
+---
+import Base from '../layouts/Base.astro';
+import content from '../data/content.json';
+
+const { praktijk, contact, privacy } = content;
+
+const titel = `${privacy.titel} — ${praktijk.naam}`;
+const omschrijving =
+  'Privacyverklaring van Virginia Scelso, medisch pedicure in Bergen NH. ' +
+  'Deze website gebruikt geen cookies, trackers of contactformulier.';
+---
+
+<Base title={titel} description={omschrijving} page="privacy">
+  <section class="page-head">
+    <div class="wrap">
+      <h1>{privacy.titel}</h1>
+
+      {privacy.is_concept && (
+        <p class="note note-concept">
+          <strong>Concept.</strong> {privacy.concept_melding}
+        </p>
+      )}
+
+      <p class="lead">
+        {praktijk.bedrijfsnaam} &middot; KvK {praktijk.kvk}<br />
+        Laatst bijgewerkt: {privacy.laatst_bijgewerkt}
+      </p>
+    </div>
+  </section>
+
+  {privacy.secties.map((s, i) => (
+    <section class={i % 2 === 0 ? 'band' : ''}>
+      <div class="wrap klacht">
+        <h2>{s.kop}</h2>
+        {s.alineas.map((a) => <p>{a}</p>)}
+      </div>
+    </section>
+  ))}
+
+  <section>
+    <div class="wrap">
+      <h2>{privacy.vragen_kop}</h2>
+      <p>{privacy.vragen_tekst}</p>
+
+      <ul class="contact-list">
+        <li>
+          <a href={`tel:${contact.telefoon_bellen}`}>
+            Bellen: {contact.telefoon_weergave}
+          </a>
+        </li>
+        <li><a href={contact.whatsapp}>WhatsApp: {contact.telefoon_weergave}</a></li>
+        <li><a href={`mailto:${contact.email}`}>{contact.email}</a></li>
+      </ul>
+    </div>
+  </section>
+</Base>

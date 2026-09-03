@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'Mulish';
-  src: url('/fonts/mulish-var.woff2') format('woff2');
+  src: url('../fonts/mulish-var.woff2') format('woff2');
   font-weight: 200 1000;
   font-style: normal;
   font-display: swap;
@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: 'Newsreader';
-  src: url('/fonts/newsreader-var.woff2') format('woff2');
+  src: url('../fonts/newsreader-var.woff2') format('woff2');
   font-weight: 200 800;
   font-style: normal;
   font-display: swap;
@@ -442,3 +442,11 @@ address { font-style: normal; }
 
 .klacht h2 { margin-bottom: 0.75rem; }
 .klacht p { max-width: var(--measure); }
+
+/* The concept banner is temporary: it disappears when
+   privacy.is_concept is set to false in content.json. */
+.note-concept {
+  border-left-color: var(--green);
+  background: var(--surface);
+  padding: 1rem 1.25rem;
+}

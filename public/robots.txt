@@ -1,0 +1,6 @@
+# Temporary preview on github.io — not the real address of the practice.
+# AT LAUNCH ON THE REAL DOMAIN: replace the two lines below with
+#   User-agent: *
+#   Allow: /
+User-agent: *
+Disallow: /

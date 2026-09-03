@@ -157,5 +157,52 @@
         ]
       }
     ]
+  },
+  "privacy": {
+    "_over_deze_pagina": "De privacyverklaring. LET OP: dit is een concept. Virginia moet dit lezen en goedkeuren voordat de site online gaat.",
+    "titel": "Privacyverklaring",
+    "_over_concept": "Zet op false zodra Virginia deze tekst heeft goedgekeurd. Dan verdwijnt de gele melding bovenaan de pagina.",
+    "is_concept": true,
+    "concept_melding": "Dit is een concepttekst. Virginia leest deze verklaring na en past hem waar nodig aan voordat de website definitief online gaat.",
+    "laatst_bijgewerkt": "3 september 2026",
+    "secties": [
+      {
+        "kop": "Deze website verzamelt niets",
+        "alineas": [
+          "Deze website heeft geen contactformulier, gebruikt geen cookies, en heeft geen bezoekersstatistieken of trackers. Er worden ook geen lettertypen of andere bestanden van externe partijen geladen.",
+          "U kunt deze website dus bekijken zonder dat er iets over u wordt vastgelegd of doorgegeven. Om die reden is er ook geen cookiemelding nodig."
+        ]
+      },
+      {
+        "kop": "Als u contact met mij opneemt",
+        "alineas": [
+          "Neemt u contact op via telefoon, WhatsApp of e-mail, dan komen uw gegevens binnen bij mij, net als bij ieder ander telefoontje of berichtje. Ik gebruik die gegevens alleen om uw vraag te beantwoorden en om afspraken te maken.",
+          "WhatsApp en e-mail lopen via de diensten van die aanbieders. Op dat verkeer is het privacybeleid van die aanbieders van toepassing; daar heb ik geen invloed op."
+        ]
+      },
+      {
+        "kop": "Gegevens over uw behandeling",
+        "alineas": [
+          "Voor de behandeling leg ik vast wat nodig is om u goed en veilig te kunnen behandelen, bijvoorbeeld uw naam, contactgegevens en relevante gezondheidsinformatie zoals diabetes of reuma.",
+          "Deze gegevens zijn alleen voor mij. Ik deel ze niet met anderen, tenzij dat nodig is voor uw behandeling en u daarvoor toestemming geeft, bijvoorbeeld bij een doorverwijzing naar de huisarts of podotherapeut.",
+          "Ik bewaar deze gegevens niet langer dan nodig is."
+        ]
+      },
+      {
+        "kop": "Waar deze website staat",
+        "alineas": [
+          "De website wordt gehost bij GitHub Pages. Zoals bij vrijwel iedere webhosting kan de hostingpartij standaard technische loggegevens bijhouden, waaronder IP-adressen. Ik heb geen toegang tot die gegevens en gebruik ze niet."
+        ]
+      },
+      {
+        "kop": "Uw rechten",
+        "alineas": [
+          "U mag altijd vragen welke gegevens ik van u heb, ze laten corrigeren, of ze laten verwijderen. Neem daarvoor contact met mij op via de telefoon, WhatsApp of e-mail.",
+          "Komen we er samen niet uit, dan kunt u een klacht indienen bij de Autoriteit Persoonsgegevens."
+        ]
+      }
+    ],
+    "vragen_kop": "Vragen?",
+    "vragen_tekst": "Heeft u een vraag over deze verklaring of over uw gegevens? Belt of appt u gerust."
   }
 }
