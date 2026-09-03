@@ -21,6 +21,15 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 // under the wrong address.
 // AT LAUNCH ON THE REAL DOMAIN: set this to false (and see public/robots.txt).
 const isPreview = true;
+
+// One list, rendered twice: as the desktop row and inside the phone menu.
+const links = [
+  { tekst: 'Over mij', href: page === 'home' ? '#over-mij' : `${base}#over-mij` },
+  { tekst: 'Tarieven', href: page === 'home' ? '#tarieven' : `${base}#tarieven` },
+  { tekst: 'Praktisch', href: page === 'home' ? '#praktisch' : `${base}#praktisch` },
+  { tekst: 'Voetklachten', href: `${base}voetklachten.html`, current: page === 'voetklachten' },
+  { tekst: 'Contact', href: page === 'home' ? '#contact' : `${base}#contact` },
+];
 ---
 
 <html lang="nl">
@@ -72,11 +81,9 @@ const isPreview = true;
         </a>
 
         <nav class="nav-desktop" aria-label="Hoofdmenu">
-          <a href={page === 'home' ? '#over-mij' : `${base}#over-mij`}>Over mij</a>
-          <a href={page === 'home' ? '#tarieven' : `${base}#tarieven`}>Tarieven</a>
-          <a href={page === 'home' ? '#praktisch' : `${base}#praktisch`}>Praktisch</a>
-          <a href={`${base}voetklachten.html`}>Voetklachten</a>
-          <a href={page === 'home' ? '#contact' : `${base}#contact`}>Contact</a>
+          {links.map((l) => (
+            <a href={l.href} aria-current={l.current ? 'page' : undefined}>{l.tekst}</a>
+          ))}
         </nav>
 
         <a class="header-phone" href={`tel:${contact.telefoon_bellen}`}>
@@ -85,6 +92,26 @@ const isPreview = true;
 
         <a class="header-whatsapp" href={contact.whatsapp}>WhatsApp</a>
       </div>
+
+      {/*
+        Phone menu. <details>/<summary> is native HTML: it opens and closes
+        with no JavaScript, is keyboard-operable, and still works with scripts
+        disabled. Hidden from 60rem up, where the row above takes over.
+        The mobile header does not stick, so an open menu simply scrolls out
+        of the way when a link jumps down the page.
+      */}
+      <details class="nav-mobile">
+        <summary>
+          <span class="nav-mobile-icon" aria-hidden="true"></span>
+          Menu
+        </summary>
+        <nav class="nav-mobile-list" aria-label="Hoofdmenu">
+          <a href={base}>Home</a>
+          {links.map((l) => (
+            <a href={l.href} aria-current={l.current ? 'page' : undefined}>{l.tekst}</a>
+          ))}
+        </nav>
+      </details>
     </header>
 
     <main id="hoofdinhoud">

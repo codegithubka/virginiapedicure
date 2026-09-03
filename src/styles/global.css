@@ -485,3 +485,63 @@ address { font-style: normal; }
   }
   .btn { padding-inline: 0.75rem; }
 }
+
+/* --- phone menu ----------------------------------------------------------
+   A <details> disclosure, so opening and closing needs no JavaScript. It
+   replaces the desktop link row below 60rem. Every row is 56px tall. */
+
+.nav-mobile { border-top: 1px solid var(--hairline); }
+
+@media (min-width: 60rem) {
+  .nav-mobile { display: none; }
+}
+
+.nav-mobile summary {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 56px;
+  padding-inline: var(--gutter);
+  font-weight: 600;
+  color: var(--green);
+  cursor: pointer;
+  list-style: none;
+}
+.nav-mobile summary::-webkit-details-marker { display: none; }
+
+/* Three bars when closed, a cross when open. */
+.nav-mobile-icon {
+  width: 1.375rem;
+  height: 1.375rem;
+  flex: none;
+  background: currentColor;
+  mask: center / contain no-repeat
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' stroke='black' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M3 6h18M3 12h18M3 18h18'/%3E%3C/svg%3E");
+}
+.nav-mobile[open] .nav-mobile-icon {
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' stroke='black' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M5 5l14 14M19 5L5 19'/%3E%3C/svg%3E");
+}
+
+.nav-mobile-list { display: flex; flex-direction: column; }
+
+.nav-mobile-list a {
+  display: flex;
+  align-items: center;
+  min-height: 56px;
+  padding-inline: var(--gutter);
+  border-top: 1px solid var(--hairline);
+  text-decoration: none;
+  color: var(--ink);
+}
+.nav-mobile-list a:hover { background: var(--surface); }
+
+/* The page you are already on, marked with the logo's gold. */
+.nav-mobile-list a[aria-current='page'],
+.nav-desktop a[aria-current='page'] {
+  font-weight: 700;
+  box-shadow: inset 3px 0 0 var(--gold);
+}
+.nav-desktop a[aria-current='page'] {
+  box-shadow: none;
+  border-bottom-color: var(--gold);
+}
