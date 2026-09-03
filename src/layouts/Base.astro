@@ -1,0 +1,106 @@
+---
+import content from '../data/content.json';
+import '../styles/global.css';
+
+const { praktijk, contact, footer } = content;
+
+export interface Props {
+  title: string;
+  description: string;
+  /** Marks the current page so its nav link can be left out. */
+  page?: 'home' | 'voetklachten' | 'privacy';
+}
+
+const { title, description, page = 'home' } = Astro.props;
+---
+
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+
+    <link rel="icon" href="/img/logo-mark.png" />
+    <link rel="apple-touch-icon" href="/img/logo-mark.png" />
+
+    <!-- Self-hosted so no request ever leaves for a third party. Preloaded
+         because both faces are used above the fold. -->
+    <link
+      rel="preload"
+      href="/fonts/mulish-var.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/newsreader-var.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#hoofdinhoud">Direct naar de inhoud</a>
+
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/">
+          <img
+            src="/img/logo-mark.png"
+            width="153"
+            height="180"
+            alt=""
+           decoding="async"
+          />
+          <span>
+            <span class="brand-name">{praktijk.naam}</span>
+            <span class="brand-role">{praktijk.beroep}</span>
+          </span>
+        </a>
+
+        <nav class="nav-desktop" aria-label="Hoofdmenu">
+          <a href={page === 'home' ? '#over-mij' : '/#over-mij'}>Over mij</a>
+          <a href={page === 'home' ? '#tarieven' : '/#tarieven'}>Tarieven</a>
+          <a href={page === 'home' ? '#praktisch' : '/#praktisch'}>Praktisch</a>
+          <a href="/voetklachten.html">Voetklachten</a>
+          <a href={page === 'home' ? '#contact' : '/#contact'}>Contact</a>
+        </nav>
+
+        <a class="header-phone" href={`tel:${contact.telefoon_bellen}`}>
+          {contact.telefoon_weergave}
+        </a>
+
+        <a class="header-whatsapp" href={contact.whatsapp}>WhatsApp</a>
+      </div>
+    </header>
+
+    <main id="hoofdinhoud">
+      <slot />
+    </main>
+
+    <div class="logo-strip">
+      <img
+        src="/img/logo-full.jpg"
+        width="720"
+        height="655"
+        alt={`${praktijk.naam} — ${praktijk.beroep}. ${praktijk.tagline}.`}
+        loading="lazy"
+      />
+    </div>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p style="margin:0">
+          {praktijk.bedrijfsnaam} &middot; KvK {praktijk.kvk}
+        </p>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="/voetklachten.html">{footer.voetklachten_tekst}</a>
+          <a href="/privacy.html">{footer.privacy_tekst}</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+
+# Source documents from Virginia — kept locally, never published.
+# "Untitled document.pdf" contains clinical foot photos of unclear origin
+# (possibly a real client), which must not end up in a public repo.
+*.pdf

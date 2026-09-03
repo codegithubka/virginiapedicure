@@ -1,0 +1,161 @@
+{
+  "_LEES_DIT_EERST": "Alle tekst van de website staat in dit bestand. Verander alleen wat TUSSEN de aanhalingstekens staat. Laat de komma's, haakjes en aanhalingstekens staan. Zie README.md voor voorbeelden.",
+  "praktijk": {
+    "naam": "Virginia Scelso",
+    "bedrijfsnaam": "Virginia Pedicure",
+    "beroep": "Medisch pedicure",
+    "plaats": "Bergen NH",
+    "tagline": "Uw voeten in deskundige handen",
+    "kvk": "93737629"
+  },
+  "contact": {
+    "_over_telefoon": "'weergave' is wat de bezoeker ziet. 'bellen' is wat er gebeurt als erop getikt wordt - die moet beginnen met +31 en zonder de eerste 0.",
+    "telefoon_weergave": "06-46512650",
+    "telefoon_bellen": "+31646512650",
+    "whatsapp": "https://wa.me/31646512650",
+    "email": "pedicure.virginia@gmail.com",
+    "straat": "Jaap Weijandweg 26",
+    "postcode": "1862 XL",
+    "woonplaats": "Bergen",
+    "_over_kaart": "Link naar Google Maps. Laat leeg (\"\") om de kaartlink helemaal weg te laten.",
+    "kaart_link": "https://www.google.com/maps/search/?api=1&query=Jaap+Weijandweg+26+1862+XL+Bergen"
+  },
+  "openingstijden": {
+    "_over_openingstijden": "Verander de tijd tussen de aanhalingstekens. Schrijf 'Gesloten' voor een dag dat u dicht bent.",
+    "maandag": "Gesloten",
+    "dinsdag": "08:00 - 18:00",
+    "woensdag": "08:00 - 18:00",
+    "donderdag": "08:00 - 18:00",
+    "vrijdag": "08:00 - 17:00",
+    "zaterdag": "Gesloten",
+    "zondag": "Gesloten"
+  },
+  "hero": {
+    "titel": "Virginia Scelso",
+    "ondertitel": "Medisch pedicure in Bergen NH",
+    "intro": "In mijn salon in Bergen en ambulant - dus bij u thuis. Behandeling alleen op afspraak.",
+    "knop_bellen": "Bel 06-46512650",
+    "knop_whatsapp": "Stuur een WhatsApp"
+  },
+  "over_mij": {
+    "kop": "Over mij",
+    "alinea_1": "Mijn naam is Virginia Scelso en ik ben woonachtig in Bergen NH. Ik heb tijdens mijn baan in de thuiszorg de opleiding tot basispedicure gevolgd en hierna de opleiding tot medisch pedicure. Ik werk nu fulltime met ontzettend veel plezier als medisch pedicure, in mijn salon en voor het merendeel ambulant, dus bij de klanten thuis.",
+    "alinea_2": "Ik ben aangesloten bij de brancheorganisatie ProVoet en bij Procert. Dit betekent dat ik als medisch pedicure goed bijgeschoold blijf, zodat ik u optimaal kan en zal behandelen."
+  },
+  "klachten": {
+    "kop": "Veel voorkomende klachten",
+    "intro": "Klachten waarmee u bij mij terecht kunt:",
+    "lijst": [
+      "Eelt",
+      "Kloven",
+      "Likdoorns",
+      "Ingroeiende of ingegroeide nagels",
+      "Verdikte nagels",
+      "Schimmelnagels"
+    ],
+    "link_tekst": "Lees meer over deze voetklachten"
+  },
+  "tarieven": {
+    "kop": "Behandelingen & tarieven",
+    "_over_prijzen": "Om een prijs te wijzigen: verander alleen het getal achter het euroteken, bijvoorbeeld \"50,00\" in \"52,50\".",
+    "behandelingen": [
+      {
+        "naam": "Volledige pedicurebehandeling",
+        "prijs": "50,00",
+        "beschrijving": "Nagels knippen, indien nodig verdikte nagels verdunnen, mechanisch verwijderen van eelt, likdoorns, ingroeiende teennagels en schimmelnagels, en het insmeren van de voeten met een hydraterende crème."
+      },
+      {
+        "naam": "Ambulante behandeling - binnen Bergen",
+        "prijs": "60,00",
+        "beschrijving": "Dezelfde volledige behandeling, bij u thuis."
+      },
+      {
+        "naam": "Ambulante behandeling - buiten Bergen",
+        "prijs": "65,00",
+        "beschrijving": "Dezelfde volledige behandeling, bij u thuis buiten Bergen. Vraag gerust of uw adres binnen mijn werkgebied valt."
+      },
+      {
+        "naam": "Deelbehandeling",
+        "prijs": "28,50",
+        "beschrijving": "Behandeling van één enkel voetprobleem, bijvoorbeeld een likdoorn of een ingroeiende nagel."
+      },
+      {
+        "naam": "Nagelregulatie, ortheses, nagelbeugels en antidruktechniek",
+        "prijs": "In overleg",
+        "beschrijving": "Vervaardigen van ortheses, nagelbeugels en antidruktechniek. Kunt u met mij overleggen wat er voor u mogelijk is."
+      }
+    ]
+  },
+  "praktisch": {
+    "kop": "Praktische informatie",
+    "punten": [
+      "Behandeling uitsluitend op afspraak.",
+      "Er is geen pinautomaat aanwezig. Contante betaling of overboeking."
+    ],
+    "annulering_kop": "Annuleringsvoorwaarden",
+    "annulering_tekst": "Het kan natuurlijk gebeuren dat een afspraak niet door kan gaan. Laat het mij zo spoedig mogelijk weten. Afspraken kunnen kosteloos worden geannuleerd of verzet tot uiterlijk één werkdag vóór de afspraak. Dit omdat de gereserveerde tijd op zo korte termijn helaas niet meer aan een andere cliënt kan worden aangeboden. Ik hoop op uw begrip."
+  },
+  "locatie": {
+    "kop": "Locatie",
+    "tekst": "De salon bevindt zich in Bergen NH. Behandeling is uitsluitend op afspraak, dus loop niet zonder afspraak binnen.",
+    "kaart_link_tekst": "Bekijk op Google Maps"
+  },
+  "contact_sectie": {
+    "kop": "Contact",
+    "tekst": "Een afspraak maken, verzetten of annuleren kan telefonisch of via WhatsApp. Ik ben ook per e-mail bereikbaar."
+  },
+  "footer": {
+    "voetklachten_tekst": "Voetklachten",
+    "privacy_tekst": "Privacyverklaring"
+  },
+  "voetklachten": {
+    "_over_deze_pagina": "De aparte pagina met uitleg over voetklachten. Elke klacht heeft een kop en een of meer alinea's.",
+    "titel": "Voetklachten",
+    "intro": "Hieronder leest u meer over de klachten die ik in de praktijk het meest tegenkom.",
+    "disclaimer": "Dit is algemene informatie en geen diagnose. Twijfelt u over uw eigen voeten, neem dan gerust contact op.",
+    "_over_medische_melding": "NOG IN TE VULLEN: de zin over diabetes, reuma en vaatproblemen. Laat leeg (\"\") om hem niet te tonen.",
+    "medische_melding": "",
+    "klachten": [
+      {
+        "kop": "Eelt",
+        "alineas": [
+          "Er zijn drie soorten eelt te onderscheiden.",
+          "Mechanisch eelt is een normale verdikking van de huid door normale drukbelasting, zoals lopen.",
+          "Pathologisch eelt, ook wel hyperkeratose genoemd, ontstaat door onnatuurlijke druk, bijvoorbeeld door knellend schoeisel of een onjuiste voetstand.",
+          "Fysiologisch eelt is een natuurlijke bescherming van de huid en is niet ziekmakend.",
+          "Het is van belang om te weten dat pathologisch eelt kan leiden tot pijn en andere problemen, en dat het regelmatig verwijderd moet worden om de huid gezond te houden."
+        ]
+      },
+      {
+        "kop": "Kloven",
+        "alineas": [
+          "Er zijn twee soorten kloven die we kunnen onderscheiden: droge kloven en vochtige kloven.",
+          "Droge kloven zijn scheuren of barsten die zich in de droge huid van de voet vormen. Deze scheuren kunnen soms erg diep zijn en kunnen uiteindelijk gaan ontsteken, wat heel pijnlijk kan zijn.",
+          "Vochtige kloven ontstaan vaker tussen de tenen, in de zachte huid die zich daar bevindt. Dit komt onder andere door vocht van zweetvoeten of langdurig in het water zijn. Vochtige kloven gaan, in tegenstelling tot de droge variant, vaak gepaard met schimmels. Schimmels houden van vocht en nestelen zich graag tussen de vochtige tenen."
+        ]
+      },
+      {
+        "kop": "Likdoorn",
+        "alineas": [
+          "Een likdoorn, ook wel een eksteroog genoemd, is een eeltknobbel die meestal op de voet verschijnt en ongemak of pijn veroorzaakt.",
+          "Het ontstaat door langdurige druk of wrijving, vaak door slecht passende schoenen die extra druk uitoefenen op specifieke plekken van de voet. Deze drukplekken kunnen leiden tot een verharding van de huid, waardoor de likdoorn ontstaat."
+        ]
+      },
+      {
+        "kop": "Ingroeiende nagel",
+        "alineas": [
+          "Bij een ingroeiende nagel (pseudo unguis incarnatus) drukt de zijkant van de nagel in de huid.",
+          "Dit kan veel pijnklachten geven. De omliggende huid kan rood of gezwollen zijn, maar er is geen ontsteking aanwezig."
+        ]
+      },
+      {
+        "kop": "Ingegroeide nagel",
+        "alineas": [
+          "Bij een ingegroeide nagel (unguis incarnatus) groeit het puntje van de nagel in het nagelbed.",
+          "Een ingegroeide teennagel geeft ontstekingsverschijnselen en veroorzaakt pijn en irritatie. Er kan een klein wondje ontstaan dat gaat ontsteken, waarbij pus uit de huid komt.",
+          "In dat geval verwijs ik u eerst door naar de huisarts om de ontsteking te laten behandelen."
+        ]
+      }
+    ]
+  }
+}
