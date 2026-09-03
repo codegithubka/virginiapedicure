@@ -8,7 +8,7 @@ export interface Props {
   title: string;
   description: string;
   /** Marks the current page so its nav link can be left out. */
-  page?: 'home' | 'voetklachten' | 'privacy';
+  page?: 'home' | 'voetklachten' | 'diabetes-en-reuma' | 'privacy';
 }
 
 const { title, description, page = 'home' } = Astro.props;
@@ -28,6 +28,11 @@ const links = [
   { tekst: 'Tarieven', href: page === 'home' ? '#tarieven' : `${base}#tarieven` },
   { tekst: 'Praktisch', href: page === 'home' ? '#praktisch' : `${base}#praktisch` },
   { tekst: 'Voetklachten', href: `${base}voetklachten.html`, current: page === 'voetklachten' },
+  {
+    tekst: 'Diabetes & reuma',
+    href: `${base}diabetes-en-reuma.html`,
+    current: page === 'diabetes-en-reuma',
+  },
   { tekst: 'Contact', href: page === 'home' ? '#contact' : `${base}#contact` },
 ];
 ---
@@ -89,8 +94,6 @@ const links = [
         <a class="header-phone" href={`tel:${contact.telefoon_bellen}`}>
           {contact.telefoon_weergave}
         </a>
-
-        <a class="header-whatsapp" href={contact.whatsapp}>WhatsApp</a>
       </div>
 
       {/*
@@ -135,6 +138,7 @@ const links = [
         </p>
         <nav class="footer-links" aria-label="Footer">
           <a href={`${base}voetklachten.html`}>{footer.voetklachten_tekst}</a>
+          <a href={`${base}diabetes-en-reuma.html`}>{footer.diabetes_reuma_tekst}</a>
           <a href={`${base}privacy.html`}>{footer.privacy_tekst}</a>
         </nav>
       </div>

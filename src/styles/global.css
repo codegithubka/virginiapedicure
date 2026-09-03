@@ -134,6 +134,10 @@ section.band { background: var(--surface); }
   .site-header { position: sticky; top: 0; z-index: 50; }
 }
 
+@media (min-width: 75rem) {
+  .nav-desktop { gap: 2rem; }
+}
+
 .site-header .wrap {
   display: flex;
   align-items: center;
@@ -169,7 +173,7 @@ section.band { background: var(--surface); }
 .nav-desktop { display: none; }
 
 @media (min-width: 60rem) {
-  .nav-desktop { display: flex; gap: 2rem; align-items: center; }
+  .nav-desktop { display: flex; gap: 1.25rem; align-items: center; }
   .nav-desktop a {
     text-decoration: none;
     color: var(--ink);
@@ -188,25 +192,6 @@ section.band { background: var(--surface); }
   min-height: 48px;
   display: inline-flex;
   align-items: center;
-}
-
-/* Kept off the mobile header so the phone number is never crowded. */
-.header-whatsapp { display: none; }
-
-@media (min-width: 60rem) {
-  .header-whatsapp {
-    display: inline-flex;
-    align-items: center;
-    min-height: 48px;
-    padding-inline: 1rem;
-    font-weight: 600;
-    text-decoration: none;
-    color: var(--green);
-    border: 1px solid var(--hairline);
-    border-radius: 4px;
-    white-space: nowrap;
-  }
-  .header-whatsapp:hover { border-color: var(--green); }
 }
 
 /* --- buttons -------------------------------------------------------------- */
@@ -545,3 +530,9 @@ address { font-style: normal; }
   box-shadow: none;
   border-bottom-color: var(--gold);
 }
+
+/* --- subsections (diabetes & reuma page) ---------------------------------- */
+
+.subsectie { margin-top: 2.5rem; }
+.subsectie h3 { margin-bottom: 0.5rem; }
+.subsectie .tick-list { margin-top: 0.75rem; }

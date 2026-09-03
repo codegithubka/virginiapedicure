@@ -106,15 +106,15 @@
   },
   "footer": {
     "voetklachten_tekst": "Voetklachten",
-    "privacy_tekst": "Privacyverklaring"
+    "privacy_tekst": "Privacyverklaring",
+    "diabetes_reuma_tekst": "Diabetes en reuma"
   },
   "voetklachten": {
     "_over_deze_pagina": "De aparte pagina met uitleg over voetklachten. Elke klacht heeft een kop en een of meer alinea's.",
     "titel": "Voetklachten",
     "intro": "Hieronder leest u meer over de klachten die ik in de praktijk het meest tegenkom.",
     "disclaimer": "Dit is algemene informatie en geen diagnose. Twijfelt u over uw eigen voeten, neem dan gerust contact op.",
-    "_over_medische_melding": "NOG IN TE VULLEN: de zin over diabetes, reuma en vaatproblemen. Laat leeg (\"\") om hem niet te tonen.",
-    "medische_melding": "",
+    "medische_melding": "Heeft u diabetes, reuma of vaatproblemen, meld dit dan bij het maken van uw afspraak.",
     "klachten": [
       {
         "kop": "Eelt",
@@ -204,5 +204,65 @@
     ],
     "vragen_kop": "Vragen?",
     "vragen_tekst": "Heeft u een vraag over deze verklaring of over uw gegevens? Belt of appt u gerust."
+  },
+  "diabetes_reuma": {
+    "_over_deze_pagina": "De pagina over diabetes en reuma. Tekst aangeleverd door Virginia. Elke sectie heeft een kop, alinea's, en eventueel subsecties met een opsomming.",
+    "titel": "Diabetes en reuma",
+    "intro": "Heeft u diabetes of reuma? Dan vragen uw voeten om extra aandacht. Hieronder leest u waarom.",
+    "disclaimer": "Dit is algemene informatie en geen diagnose. Heeft u diabetes, reuma of vaatproblemen, meld dit dan bij het maken van uw afspraak, zodat ik daar rekening mee kan houden.",
+    "secties": [
+      {
+        "kop": "De risico's van diabetes voor de voeten",
+        "alineas": [
+          "Diabetes mellitus beschadigt de zenuwen en bloedvaten in de voeten, waardoor gevoelsverlies (neuropathie) en slechte doorbloeding ontstaan. Dit verhoogt de kans op wondjes, infecties en zweren die moeilijk genezen.",
+          "Kleine wondjes, eelt, likdoorns of ingegroeide nagels kunnen ernstige complicaties veroorzaken, zoals gangreen en amputatie. Regelmatige voetcontrole is cruciaal om problemen vroegtijdig te ontdekken en te behandelen. Een slechte bloedsuikerhuishouding verergert deze risico's aanzienlijk.",
+          "Voorkomen is beter dan genezen: goede voetverzorging is essentieel bij diabetes."
+        ]
+      },
+      {
+        "kop": "Het belang van regelmatige voetcontrole",
+        "alineas": [
+          "Regelmatige voetcontrole is bij diabetespatiënten van essentieel belang, ongeacht of er klachten zijn. Door de verminderde zenuwfunctie (neuropathie) en slechte doorbloeding voelen mensen met diabetes vaak minder goed of helemaal niets aan hun voeten.",
+          "Kleine wondjes, blaren of infecties kunnen daardoor onopgemerkt blijven en ernstig ontsteken, wat kan leiden tot diepe zweren en zelfs amputatie. Tijdige opsporing van afwijkingen is daarom cruciaal.",
+          "Een medisch pedicure kan tijdens een controle de voeten grondig onderzoeken op wondjes, eelt, likdoorns, schimmelinfecties en andere afwijkingen, en kan advies geven over juiste voetverzorging, schoeisel en preventieve maatregelen.",
+          "De frequentie van de controles hangt af van de ernst van de diabetes en eventuele bestaande voetproblemen. In veel gevallen wordt een controle elke 6 tot 8 weken aangeraden.",
+          "Een jaarlijkse voetscreening door de huisarts of praktijkondersteuner is eveneens belangrijk, maar de regelmatige controle door de medisch pedicure is net zo belangrijk voor het voorkomen van ernstige complicaties. De medisch pedicure is getraind om veranderingen vroegtijdig te signaleren en kan doorverwijzen naar andere zorgverleners indien nodig.",
+          "Het voorkomen van voetproblemen is veel eenvoudiger dan het behandelen ervan. Bij twijfel of bij het ontstaan van nieuwe klachten, neem dan altijd direct contact op met uw huisarts of medisch pedicure."
+        ]
+      },
+      {
+        "kop": "Reuma",
+        "alineas": [
+          "De voeten van reumapatiënten vragen extra zorg. Reumatische voeten zijn kwetsbaarder en gevoeliger dan de voeten van gezonde mensen. Hieronder leest u meer over de reumatische voet en waarom regelmatig bezoek aan de medisch pedicure van belang is."
+        ],
+        "subsecties": [
+          {
+            "kop": "Reumatische voeten vragen extra zorg",
+            "alineas": [
+              "De voeten van reumapatiënten zijn vaak extra gevoelig door:"
+            ],
+            "lijst": [
+              "Gewrichtsontstekingen",
+              "Slijmbeursontstekingen",
+              "‘Slijtage’ in de gewrichten",
+              "Standsveranderingen"
+            ]
+          },
+          {
+            "kop": "Wanneer gaat een reumapatiënt naar de medisch pedicure?",
+            "alineas": [
+              "Door het dunner worden van het vetkussen onder de bal van de voet, een afwijkende stand van de voet en/of tenen en niet goed passend schoeisel treedt er aan de voeten vaak ongewenste eelt- en likdoornvorming op.",
+              "Door een beperkte bewegingsvrijheid en/of doordat de tenen herhaaldelijk in de verdrukking komen bij te weinig ruimte in de schoen, krijgt een reumapatiënt ook te maken met nagelafwijkingen zoals:"
+            ],
+            "lijst": [
+              "Brokkelige nagels",
+              "Eeltvorming onder de nagels",
+              "‘Schuurpapier’-nagels (ondoorzichtig, ruw, bros en gespleten)",
+              "Verkleuringen van de nagel"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

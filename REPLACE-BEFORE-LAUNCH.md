@@ -51,9 +51,12 @@ Ask for the original vector (SVG / AI / EPS) or a PNG with transparency.
 
 ## 4. Content still awaiting Virginia's answer
 
-- **Diabetes / reuma / vaatproblemen.** The line asking visitors to mention
-  these when booking has been left out pending her answer on whether she treats
-  them herself or refers to a podotherapeut.
+- **Diabetes / reuma wording.** Answered: she supplied a full page of copy on
+  both, so she clearly treats these groups. The line asking visitors to mention
+  diabetes, reuma or vaatproblemen when booking is now live on voetklachten and
+  on the new page. That sentence is MY wording, not hers - she should read and
+  approve it. Her own supplied text is reproduced verbatim apart from light
+  punctuation tidying.
 - **Privacyverklaring.** Drafted, but she must read and approve it before launch.
 - **Vergoeding by zorgverzekeraars.** Deliberately absent. Her documents make no
   reimbursement claim, so the site makes none. Only add it if she supplies the

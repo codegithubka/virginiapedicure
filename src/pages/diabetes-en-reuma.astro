@@ -1,0 +1,59 @@
+---
+import Base from '../layouts/Base.astro';
+import content from '../data/content.json';
+import ContactKnoppen from '../components/ContactKnoppen.astro';
+
+const { praktijk, diabetes_reuma } = content;
+
+const titel = `${diabetes_reuma.titel} — ${praktijk.naam}`;
+const omschrijving =
+  'Voetzorg bij diabetes en reuma door medisch pedicure Virginia Scelso in ' +
+  'Bergen NH. Waarom regelmatige voetcontrole bij een diabetische of ' +
+  'reumatische voet zo belangrijk is.';
+---
+
+<Base title={titel} description={omschrijving} page="diabetes-en-reuma">
+  <section class="page-head">
+    <div class="wrap">
+      <h1>{diabetes_reuma.titel}</h1>
+      <p class="lead">{diabetes_reuma.intro}</p>
+      <p class="note">{diabetes_reuma.disclaimer}</p>
+    </div>
+  </section>
+
+  {diabetes_reuma.secties.map((s, i) => (
+    <section class={i % 2 === 0 ? 'band' : ''}>
+      <div class="wrap klacht">
+        <h2>{s.kop}</h2>
+
+        {s.alineas.map((a) => <p>{a}</p>)}
+
+        {s.subsecties?.map((sub) => (
+          <div class="subsectie">
+            <h3>{sub.kop}</h3>
+
+            {sub.alineas.map((a) => <p>{a}</p>)}
+
+            {sub.lijst && (
+              <ul class="tick-list">
+                {sub.lijst.map((item) => <li>{item}</li>)}
+              </ul>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+  ))}
+
+  <section>
+    <div class="wrap">
+      <h2>Zorg voor uw voeten</h2>
+      <p>
+        Wilt u uw voeten regelmatig laten controleren? Belt u gerust, dan
+        bespreken we samen wat er in uw situatie nodig is.
+      </p>
+
+      <ContactKnoppen />
+    </div>
+  </section>
+</Base>
