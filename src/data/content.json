@@ -126,8 +126,8 @@
           "Het is van belang om te weten dat pathologisch eelt kan leiden tot pijn en andere problemen, en dat het regelmatig verwijderd moet worden om de huid gezond te houden."
         ],
         "foto": "/img/eelt.jpg",
-        "foto_alt": "Zijkant van een voet met een scheefstaande grote teen en verdikte, gelige huid langs de voetrand.",
-        "foto_onderschrift": "Eelt langs de voetrand bij een scheefstaande grote teen."
+        "foto_alt": "Voetzool met een grote, ronde, geelverkleurde en verharde eeltplek onder de bal van de voet.",
+        "foto_onderschrift": "Eelt onder de bal van de voet."
       },
       {
         "kop": "Kloven",
@@ -144,23 +144,23 @@
           "Het ontstaat door langdurige druk of wrijving, vaak door slecht passende schoenen die extra druk uitoefenen op specifieke plekken van de voet. Deze drukplekken kunnen leiden tot een verharding van de huid, waardoor de likdoorn ontstaat."
         ],
         "foto": "/img/likdoorn.jpg",
-        "foto_alt": "Voetzool met een ronde, geelverkleurde en verharde plek onder de bal van de voet.",
-        "foto_onderschrift": "Een likdoorn onder de bal van de voet."
+        "foto_alt": "Tenen van onderaf gezien, met een kleine, scherp begrensde gelige verharding op de zijkant van een teen.",
+        "foto_onderschrift": "Een likdoorn op de zijkant van een teen."
       },
       {
-        "kop": "Ingroeiende nagel",
+        "kop": "Ingroeiende nagel (pseudo unguis incarnatus)",
         "alineas": [
-          "Bij een ingroeiende nagel (pseudo unguis incarnatus) drukt de zijkant van de nagel in de huid.",
+          "Bij een ingroeiende nagel drukt de zijkant van de nagel in de huid.",
           "Dit kan veel pijnklachten geven. De omliggende huid kan rood of gezwollen zijn, maar er is geen ontsteking aanwezig."
         ],
         "foto": "/img/ingroeiende-nagel.jpg",
-        "foto_alt": "Tenen van onderaf gezien, met een gelige verharding naast de nagelrand van een kleine teen.",
-        "foto_onderschrift": "Verharding naast de nagelrand bij een ingroeiende nagel."
+        "foto_alt": "Grote teen met een sterk verdikte, gele nagel die aan de zijkant in de huid krult, met rode huid eromheen.",
+        "foto_onderschrift": "Een verdikte nagel die aan de zijkant in de huid drukt."
       },
       {
-        "kop": "Ingegroeide nagel",
+        "kop": "Ingegroeide nagel (unguis incarnatus)",
         "alineas": [
-          "Bij een ingegroeide nagel (unguis incarnatus) groeit het puntje van de nagel in het nagelbed.",
+          "Bij een ingegroeide nagel groeit het puntje van de nagel in het nagelbed.",
           "Een ingegroeide teennagel geeft ontstekingsverschijnselen en veroorzaakt pijn en irritatie. Er kan een klein wondje ontstaan dat gaat ontsteken, waarbij pus uit de huid komt.",
           "In dat geval verwijs ik u eerst door naar de huisarts om de ontsteking te laten behandelen."
         ]
@@ -273,8 +273,8 @@
           }
         ],
         "foto": "/img/reumavoet.jpg",
-        "foto_alt": "Tenen met een sterk verdikte, gelige en vervormde nagel aan de grote teen, vastgehouden door een gehandschoende hand.",
-        "foto_onderschrift": "Nagelafwijking bij een reumatische voet."
+        "foto_alt": "Voet van bovenaf met een sterk naar buiten wijkende grote teen, een uitstekende knobbel aan de voetrand en een rood, opgezet gewricht bij een kromstaande tweede teen.",
+        "foto_onderschrift": "Standsverandering en ontstoken gewrichten bij een reumatische voet."
       }
     ]
   }

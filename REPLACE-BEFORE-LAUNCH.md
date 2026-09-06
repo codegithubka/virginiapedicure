@@ -24,12 +24,19 @@ photographs, taken in her practice:
   carried GPS coordinates, which would otherwise have revealed the location where
   each photo was taken.
 
-**One label still to confirm with Virginia.** The photo captioned *likdoorn*
-is `IMG_8673` and the one captioned *ingroeiende nagel* is `IMG_8674`. The
-message supplying them said "8674 is likdoorn", which would swap the two, but
-the images themselves and their position in the message both say otherwise:
-8673 shows a round hyperkeratotic lesion on the ball of the foot, which is not
-a nail. Swap the `foto` values in `content.json` if she says otherwise.
+**Labels were assigned from the images themselves, not from the order they
+arrived.** The photos and the label list turned out to be rotated by one
+position relative to each other. The mapping now in use:
+
+| Original | Published as | Why |
+|---|---|---|
+| `IMG_8250` | `reumavoet.jpg` | Severe hallux valgus, prominent bunion, red swollen joint on a clawed second toe. Standsverandering and gewrichtsontsteking; no eelt visible. |
+| `IMG_8673` | `eelt.jpg` | Broad, diffuse, round yellow plaque on the ball of the foot. Too large and too diffuse for a likdoorn. |
+| `IMG_8674` | `likdoorn.jpg` | Small, sharply demarcated lesion on the side of a toe, at a pressure point between toes. |
+| `IMG_0060` | `ingroeiende-nagel.jpg` | Sharply thickened yellow nail curling into the nail fold, with red skin around it. The only photo showing a nail. |
+
+Worth a final confirmation from Virginia, since she knows which client and
+condition each photo was taken for.
 
 ## 2. ProVoet and Procert logos are not present and not cleared
 
