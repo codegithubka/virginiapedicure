@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import content from '../data/content.json';
 import ContactKnoppen from '../components/ContactKnoppen.astro';
+import KlachtFoto from '../components/KlachtFoto.astro';
 
 const { praktijk, diabetes_reuma } = content;
 
@@ -27,6 +28,10 @@ const omschrijving =
         <h2>{s.kop}</h2>
 
         {s.alineas.map((a) => <p>{a}</p>)}
+
+        {s.foto && (
+          <KlachtFoto src={s.foto} alt={s.foto_alt} onderschrift={s.foto_onderschrift} />
+        )}
 
         {s.subsecties?.map((sub) => (
           <div class="subsectie">

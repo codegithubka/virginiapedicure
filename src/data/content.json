@@ -124,7 +124,10 @@
           "Pathologisch eelt, ook wel hyperkeratose genoemd, ontstaat door onnatuurlijke druk, bijvoorbeeld door knellend schoeisel of een onjuiste voetstand.",
           "Fysiologisch eelt is een natuurlijke bescherming van de huid en is niet ziekmakend.",
           "Het is van belang om te weten dat pathologisch eelt kan leiden tot pijn en andere problemen, en dat het regelmatig verwijderd moet worden om de huid gezond te houden."
-        ]
+        ],
+        "foto": "/img/eelt.jpg",
+        "foto_alt": "Zijkant van een voet met een scheefstaande grote teen en verdikte, gelige huid langs de voetrand.",
+        "foto_onderschrift": "Eelt langs de voetrand bij een scheefstaande grote teen."
       },
       {
         "kop": "Kloven",
@@ -139,14 +142,20 @@
         "alineas": [
           "Een likdoorn, ook wel een eksteroog genoemd, is een eeltknobbel die meestal op de voet verschijnt en ongemak of pijn veroorzaakt.",
           "Het ontstaat door langdurige druk of wrijving, vaak door slecht passende schoenen die extra druk uitoefenen op specifieke plekken van de voet. Deze drukplekken kunnen leiden tot een verharding van de huid, waardoor de likdoorn ontstaat."
-        ]
+        ],
+        "foto": "/img/likdoorn.jpg",
+        "foto_alt": "Voetzool met een ronde, geelverkleurde en verharde plek onder de bal van de voet.",
+        "foto_onderschrift": "Een likdoorn onder de bal van de voet."
       },
       {
         "kop": "Ingroeiende nagel",
         "alineas": [
           "Bij een ingroeiende nagel (pseudo unguis incarnatus) drukt de zijkant van de nagel in de huid.",
           "Dit kan veel pijnklachten geven. De omliggende huid kan rood of gezwollen zijn, maar er is geen ontsteking aanwezig."
-        ]
+        ],
+        "foto": "/img/ingroeiende-nagel.jpg",
+        "foto_alt": "Tenen van onderaf gezien, met een gelige verharding naast de nagelrand van een kleine teen.",
+        "foto_onderschrift": "Verharding naast de nagelrand bij een ingroeiende nagel."
       },
       {
         "kop": "Ingegroeide nagel",
@@ -156,7 +165,8 @@
           "In dat geval verwijs ik u eerst door naar de huisarts om de ontsteking te laten behandelen."
         ]
       }
-    ]
+    ],
+    "_over_fotos": "Foto's van Virginia zelf. 'foto' leeg laten (\"\") haalt de foto weg."
   },
   "privacy": {
     "_over_deze_pagina": "De privacyverklaring. LET OP: dit is een concept. Virginia moet dit lezen en goedkeuren voordat de site online gaat.",
@@ -261,7 +271,10 @@
               "Verkleuringen van de nagel"
             ]
           }
-        ]
+        ],
+        "foto": "/img/reumavoet.jpg",
+        "foto_alt": "Tenen met een sterk verdikte, gelige en vervormde nagel aan de grote teen, vastgehouden door een gehandschoende hand.",
+        "foto_onderschrift": "Nagelafwijking bij een reumatische voet."
       }
     ]
   }

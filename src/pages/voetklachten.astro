@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import content from '../data/content.json';
 import ContactKnoppen from '../components/ContactKnoppen.astro';
+import KlachtFoto from '../components/KlachtFoto.astro';
 
 const { praktijk, contact, hero, voetklachten } = content;
 
@@ -31,6 +32,9 @@ const omschrijving =
 
         {k.alineas.map((a) => <p>{a}</p>)}
 
+        {k.foto && (
+          <KlachtFoto src={k.foto} alt={k.foto_alt} onderschrift={k.foto_onderschrift} />
+        )}
       </div>
     </section>
   ))}

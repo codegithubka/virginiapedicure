@@ -1,0 +1,20 @@
+---
+/**
+ * A clinical photo with its caption. Virginia's own photographs, so they are
+ * shown directly rather than hidden behind a reveal.
+ */
+export interface Props {
+  src: string;
+  alt: string;
+  onderschrift: string;
+}
+
+const { src, alt, onderschrift } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const pad = src.replace(/^\//, '');
+---
+
+<figure class="klacht-foto">
+  <img src={`${base}${pad}`} alt={alt} width="1050" height="1400" loading="lazy" decoding="async" />
+  <figcaption>{onderschrift}</figcaption>
+</figure>
