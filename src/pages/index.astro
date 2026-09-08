@@ -67,8 +67,7 @@ const omschrijving =
   <section id="over-mij" class="band">
     <div class="wrap">
       <h2>{over_mij.kop}</h2>
-      <p>{over_mij.alinea_1}</p>
-      <p>{over_mij.alinea_2}</p>
+      {over_mij.alineas.map((a) => <p>{a}</p>)}
     </div>
   </section>
 
@@ -82,12 +81,16 @@ const omschrijving =
         {klachten.lijst.map((k) => <li>{k}</li>)}
       </ul>
       <p><a href={`${base}voetklachten.html`}>{klachten.link_tekst}</a></p>
+      <p>{klachten.na_link_tekst}</p>
 
       <dl class="tarieven">
         {tarieven.behandelingen.map((b) => (
           <div class="tarief">
             <dt class="tarief-naam">{b.naam}</dt>
-            <dd class="tarief-prijs">{toonPrijs(b.prijs)}</dd>
+            <dd class="tarief-prijs">
+              {toonPrijs(b.prijs)}
+              {b.prijs_noot && <span class="tarief-noot">{b.prijs_noot}</span>}
+            </dd>
             <dd class="tarief-beschrijving">{b.beschrijving}</dd>
           </div>
         ))}

@@ -69,10 +69,25 @@ Ask for the original vector (SVG / AI / EPS) or a PNG with transparency.
 
 ## 5. Photos still needed
 
-- Portrait of Virginia at work (portrait orientation, ~1000 × 1250 px).
-  Currently a labelled placeholder box in the hero.
-- Salon interior (optional).
+Both named by Virginia as still missing:
 
-## 6. Domain
+- **Portrait of her at work** (portrait orientation, ~1000 x 1250 px). Currently
+  a labelled placeholder box in the hero on the homepage.
+- **A photo of kloven.** The Kloven section on voetklachten is the only klacht
+  without an image; the old stock one was deleted and not replaced.
+
+## 6. One tariff question for Virginia
+
+Her latest note says the deelbehandeling is salon-only and that "ambulant it is
+only the whole treatment for 60,-". Both ambulant tiers from the original
+document have been kept as they were:
+
+- Ambulante behandeling, binnen Bergen: EUR 60,00
+- Ambulante behandeling, buiten Bergen: EUR 65,00
+
+She did not mention the EUR 65 buiten-Bergen rate either way, so it has NOT been
+removed. Confirm whether it still applies before launch.
+
+## 7. Domain
 
 Not yet purchased. The site currently runs locally only.

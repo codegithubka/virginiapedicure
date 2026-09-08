@@ -26,7 +26,7 @@
     "dinsdag": "08:00 - 18:00",
     "woensdag": "08:00 - 18:00",
     "donderdag": "08:00 - 18:00",
-    "vrijdag": "08:00 - 17:00",
+    "vrijdag": "08:00 - 18:00",
     "zaterdag": "Gesloten",
     "zondag": "Gesloten"
   },
@@ -39,8 +39,12 @@
   },
   "over_mij": {
     "kop": "Over mij",
-    "alinea_1": "Mijn naam is Virginia Scelso en ik ben woonachtig in Bergen NH. Ik heb tijdens mijn baan in de thuiszorg de opleiding tot basispedicure gevolgd en hierna de opleiding tot medisch pedicure. Ik werk nu fulltime met ontzettend veel plezier als medisch pedicure, in mijn salon en voor het merendeel ambulant, dus bij de klanten thuis.",
-    "alinea_2": "Ik ben aangesloten bij de brancheorganisatie ProVoet en bij Procert. Dit betekent dat ik als medisch pedicure goed bijgeschoold blijf, zodat ik u optimaal kan en zal behandelen."
+    "_over_alineas": "Elke regel hieronder is één alinea. Een alinea toevoegen: zet er een komma achter en typ de nieuwe tekst tussen aanhalingstekens.",
+    "alineas": [
+      "Mijn naam is Virginia Scelso en ik ben woonachtig in Bergen NH. Ik heb tijdens mijn baan in de thuiszorg de opleiding tot basispedicure gevolgd en hierna de opleiding tot medisch pedicure. Ik werk nu fulltime met ontzettend veel plezier als medisch pedicure, in mijn salon en voor het merendeel ambulant, dus bij de klanten thuis.",
+      "Ik ben aangesloten bij de brancheorganisatie ProVoet en bij Procert. Dit betekent dat ik als medisch pedicure goed bijgeschoold blijf, zodat ik u optimaal kan behandelen.",
+      "Om u te verzekeren van de continuïteit van uw behandeling werken wij in Bergen samen met vijf medisch pedicures. Dit wil zeggen dat wij in geval van ziekte en vakantie voor elkaar waarnemen als u klachten heeft."
+    ]
   },
   "klachten": {
     "kop": "Veel voorkomende klachten",
@@ -53,16 +57,18 @@
       "Verdikte nagels",
       "Schimmelnagels"
     ],
-    "link_tekst": "Lees meer over deze voetklachten"
+    "link_tekst": "Lees meer over deze voetklachten",
+    "na_link_tekst": "U kunt ook zonder deze klachten bij mij terecht voor een complete pedicurebehandeling, zodat u met verzorgde nagels en zachte voeten naar huis gaat."
   },
   "tarieven": {
     "kop": "Behandelingen & tarieven",
-    "_over_prijzen": "Om een prijs te wijzigen: verander alleen het getal achter het euroteken, bijvoorbeeld \"50,00\" in \"52,50\".",
+    "_over_prijzen": "Om een prijs te wijzigen: verander alleen het getal achter het euroteken, bijvoorbeeld \"50,00\" in \"52,50\". Een regel met \"prijs_noot\" verschijnt klein onder de prijs; laat hem leeg (\"\") om hem te verbergen.",
     "behandelingen": [
       {
         "naam": "Volledige pedicurebehandeling",
-        "prijs": "50,00",
-        "beschrijving": "Nagels knippen, indien nodig verdikte nagels verdunnen, mechanisch verwijderen van eelt, likdoorns, ingroeiende teennagels en schimmelnagels, en het insmeren van de voeten met een hydraterende crème."
+        "prijs": "47,50",
+        "beschrijving": "Nagels knippen, indien nodig verdikte nagels verdunnen, mechanisch verwijderen van eelt, likdoorns, ingroeiende teennagels en schimmelnagels, en het insmeren van de voeten met een hydraterende crème.",
+        "prijs_noot": "Per 1 oktober 2026: € 50,00"
       },
       {
         "naam": "Ambulante behandeling - binnen Bergen",
@@ -77,7 +83,7 @@
       {
         "naam": "Deelbehandeling",
         "prijs": "28,50",
-        "beschrijving": "Behandeling van één enkel voetprobleem, bijvoorbeeld een likdoorn of een ingroeiende nagel."
+        "beschrijving": "Behandeling van één enkel voetprobleem, bijvoorbeeld een likdoorn of een ingroeiende nagel. Alleen in de salon; ambulant behandel ik uitsluitend volledig."
       },
       {
         "naam": "Nagelregulatie, ortheses, nagelbeugels en antidruktechniek",
@@ -90,14 +96,14 @@
     "kop": "Praktische informatie",
     "punten": [
       "Behandeling uitsluitend op afspraak.",
-      "Er is geen pinautomaat aanwezig. Contante betaling of overboeking."
+      "Er is geen pinautomaat aanwezig. Contante betaling, overboeking of via een betaalverzoek."
     ],
     "annulering_kop": "Annuleringsvoorwaarden",
-    "annulering_tekst": "Het kan natuurlijk gebeuren dat een afspraak niet door kan gaan. Laat het mij zo spoedig mogelijk weten. Afspraken kunnen kosteloos worden geannuleerd of verzet tot uiterlijk één werkdag vóór de afspraak. Dit omdat de gereserveerde tijd op zo korte termijn helaas niet meer aan een andere cliënt kan worden aangeboden. Ik hoop op uw begrip."
+    "annulering_tekst": "Het kan natuurlijk gebeuren dat een afspraak niet door kan gaan. Laat het mij zo spoedig mogelijk weten. Afspraken kunnen kosteloos worden geannuleerd of verzet tot uiterlijk 48 uur vóór de afspraak. Dit omdat de gereserveerde tijd op zo korte termijn helaas niet meer aan een andere cliënt kan worden aangeboden. Ik hoop op uw begrip."
   },
   "locatie": {
     "kop": "Locatie",
-    "tekst": "De salon bevindt zich in Bergen NH. Behandeling is uitsluitend op afspraak, dus loop niet zonder afspraak binnen.",
+    "tekst": "De salon bevindt zich in Bergen NH. Behandeling is uitsluitend op afspraak.",
     "kaart_link_tekst": "Bekijk op Google Maps"
   },
   "contact_sectie": {
