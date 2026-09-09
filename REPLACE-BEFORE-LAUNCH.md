@@ -87,6 +87,26 @@ document have been kept as they were:
 She did not mention the EUR 65 buiten-Bergen rate either way, so it has NOT been
 removed. Confirm whether it still applies before launch.
 
-## 7. Domain
+## 7. Domain — virginiapedicure.nl
 
-Not yet purchased. The site currently runs locally only.
+Bought. The build now targets it: `site` is https://virginiapedicure.nl,
+`base` is '/', and `public/CNAME` holds the domain. Do not delete that CNAME
+file; it is what tells GitHub Pages to serve the site at the custom domain.
+
+Remaining, at the registrar and in the repo settings:
+
+1. Four A records on the apex, host `@`:
+   185.199.108.153 / 185.199.109.153 / 185.199.110.153 / 185.199.111.153
+2. Four AAAA records on the apex, host `@`:
+   2606:50c0:8000::153 / 2606:50c0:8001::153 / 2606:50c0:8002::153 / 2606:50c0:8003::153
+3. One CNAME on host `www` pointing to `codegithubka.github.io.`
+4. GitHub repo Settings > Pages > Custom domain: virginiapedicure.nl, then
+   tick Enforce HTTPS once the certificate is issued.
+
+## 8. Search engines are still blocked
+
+`isPreview` in `src/layouts/Base.astro` is still `true`, which emits
+`<meta name="robots" content="noindex, nofollow">` on every page, and
+`public/robots.txt` still disallows everything. That was right for the
+github.io preview. Flip both when the site is ready to be found on Google —
+but not before items 2 to 6 above are settled.

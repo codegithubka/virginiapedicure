@@ -1,15 +1,13 @@
 import { defineConfig } from 'astro/config';
 
-// Temporary home: GitHub Pages serves this repo at
-//   https://codegithubka.github.io/virginiapedicure/
-// so every internal URL sits under that "/virginiapedicure/" prefix.
+// Live at https://virginiapedicure.nl
 //
-// WHEN THE REAL DOMAIN IS BOUGHT: change `site` to the new domain and set
-// `base` back to '/'. Nothing else needs to change — every link and asset
-// path in the templates is built from BASE_URL rather than hard-coded.
+// `base` is '/' because the site sits at the root of its own domain. The
+// CNAME file in public/ is what tells GitHub Pages to serve it there; it is
+// copied into the build output on every deploy, so do not delete it.
 export default defineConfig({
-  site: 'https://codegithubka.github.io',
-  base: '/virginiapedicure',
+  site: 'https://virginiapedicure.nl',
+  base: '/',
   output: 'static',
   build: { format: 'file' },
   devToolbar: { enabled: false },
