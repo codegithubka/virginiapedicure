@@ -69,12 +69,11 @@ Ask for the original vector (SVG / AI / EPS) or a PNG with transparency.
 
 ## 5. Photos still needed
 
-Both named by Virginia as still missing:
+- **A photo of kloven.** Virginia will take one when she next sees a client
+  with kloven. Kloven is the only section on voetklachten without an image.
 
-- **Portrait of her at work** (portrait orientation, ~1000 x 1250 px). Currently
-  a labelled placeholder box in the hero on the homepage.
-- **A photo of kloven.** The Kloven section on voetklachten is the only klacht
-  without an image; the old stock one was deleted and not replaced.
+Her portrait is now in place (`public/img/virginia.jpg`), so the hero no
+longer shows a placeholder box.
 
 ## 6. One tariff question for Virginia
 

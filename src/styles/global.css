@@ -571,3 +571,11 @@ address { font-style: normal; }
   white-space: nowrap;
   margin-top: 0.25rem;
 }
+
+/* Virginia's portrait, in the slot the placeholder box used to occupy. */
+.hero-portret {
+  width: 100%;
+  border-radius: 4px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}

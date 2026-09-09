@@ -35,7 +35,9 @@
     "ondertitel": "Medisch pedicure in Bergen NH",
     "intro": "In mijn salon in Bergen en ambulant - dus bij u thuis. Behandeling alleen op afspraak.",
     "knop_bellen": "Bellen",
-    "knop_whatsapp": "WhatsApp"
+    "knop_whatsapp": "WhatsApp",
+    "foto": "/img/virginia.jpg",
+    "foto_alt": "Virginia Scelso, glimlachend, in haar witte werkjas."
   },
   "over_mij": {
     "kop": "Over mij",
@@ -223,8 +225,8 @@
   },
   "diabetes_reuma": {
     "_over_deze_pagina": "De pagina over diabetes en reuma. Tekst aangeleverd door Virginia. Elke sectie heeft een kop, alinea's, en eventueel subsecties met een opsomming.",
-    "titel": "Diabetes en reuma",
-    "intro": "Heeft u diabetes of reuma? Dan vragen uw voeten om extra aandacht. Hieronder leest u waarom.",
+    "titel": "Diabetes, reuma en vaatproblemen",
+    "intro": "Heeft u diabetes, reuma of vaatproblemen? Dan vragen uw voeten om extra aandacht. Hieronder leest u waarom.",
     "disclaimer": "Dit is algemene informatie en geen diagnose. Heeft u diabetes, reuma of vaatproblemen, meld dit dan bij het maken van uw afspraak, zodat ik daar rekening mee kan houden.",
     "secties": [
       {
@@ -281,6 +283,38 @@
         "foto": "/img/reumavoet.jpg",
         "foto_alt": "Voet van bovenaf met een sterk naar buiten wijkende grote teen, een uitstekende knobbel aan de voetrand en een rood, opgezet gewricht bij een kromstaande tweede teen.",
         "foto_onderschrift": "Standsverandering en ontstoken gewrichten bij een reumatische voet."
+      },
+      {
+        "kop": "Vaatproblemen en voeten",
+        "alineas": [
+          "Vernauwde bloedvaten in de benen en voeten."
+        ],
+        "subsecties": [
+          {
+            "kop": "Wat zijn de symptomen van claudicatio intermittens?",
+            "alineas": [
+              "Het belangrijkste symptoom is pijn in één of beide kuiten tijdens het lopen. Dit wordt veroorzaakt door een vernauwing in de arteria femoralis (dijbeenslagader), de meest voorkomende plek voor de vorming van atheromen bij vaatvernauwing in de benen.",
+              "Als u loopt, hebben uw kuitspieren extra bloed en zuurstof nodig. Het vernauwde bloedvat kan dat extra bloed niet aanleveren, met als gevolg dat de spieren te weinig zuurstof krijgen en pijn gaan doen.",
+              "Als u stopt met lopen, verdwijnt de pijn weer snel. De pijn komt eerder opzetten wanneer u tegen een heuvel of een trap oploopt dan wanneer u op een vlakke ondergrond loopt.",
+              "Is een bloedvat hoger in het lichaam vernauwd, bijvoorbeeld de aorta, dan kunt u bij het lopen ook pijn in uw dijen of billen voelen.",
+              "Als de bloedtoevoer naar uw benen afneemt, kan een arts die u onderzoekt de volgende symptomen ontdekken:"
+            ],
+            "lijst": [
+              "Minder haargroei onder de knieën en slechte groei van de teennagels",
+              "Koude voeten",
+              "Een zwakke of afwezige hartslag in de bloedvaten van de voeten"
+            ]
+          },
+          {
+            "kop": "Ernstige gevallen",
+            "alineas": [
+              "Als de bloedtoevoer ernstig wordt belemmerd, kunt u ook in rust pijn voelen, met name 's nachts wanneer de benen in bed omhoog liggen. In de regel voelt u die pijn het eerst in uw tenen en voeten, en niet in uw kuiten.",
+              "Er kunnen zich zweren vormen op uw voeten of onderbenen als de bloedtoevoer naar de huid slecht is. In een klein aantal gevallen kan weefsel beginnen af te sterven. Dit kan in de meeste gevallen worden voorkomen.",
+              "Preventief naar de medisch pedicure voorkomt wondjes."
+            ],
+            "lijst": []
+          }
+        ]
       }
     ]
   }

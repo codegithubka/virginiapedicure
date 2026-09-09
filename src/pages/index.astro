@@ -55,11 +55,14 @@ const omschrijving =
         <ContactKnoppen />
       </div>
 
-      {/* Placeholder only. Replace with Virginia's portrait — see README. */}
-      <div class="img-slot" data-ratio="4x5">
-        <strong>Foto volgt</strong>
-        <span>Portret van Virginia aan het werk<br />Staand, ongeveer 1000 &times; 1250 px</span>
-      </div>
+      <img
+        class="hero-portret"
+        src={`${base}${hero.foto.replace(/^\//, '')}`}
+        alt={hero.foto_alt}
+        width="1000"
+        height="1250"
+        fetchpriority="high"
+      />
     </div>
   </section>
 
