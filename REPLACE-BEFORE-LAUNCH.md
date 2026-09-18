@@ -89,9 +89,12 @@ removed. Confirm whether it still applies before launch.
 
 ## 7. Domain — virginiapedicure.nl
 
-Bought. The build now targets it: `site` is https://virginiapedicure.nl,
-`base` is '/', and `public/CNAME` holds the domain. Do not delete that CNAME
-file; it is what tells GitHub Pages to serve the site at the custom domain.
+Bought. The build now targets it: `site` is https://virginiapedicure.nl and
+`base` is '/'. DNS at GoDaddy is configured and verified.
+
+The custom domain must be entered by hand in the repo under Settings > Pages >
+Custom domain. This repo deploys through a GitHub Actions workflow, and GitHub
+ignores CNAME files for Actions deploys, so `public/CNAME` does not set it.
 
 Remaining, at the registrar and in the repo settings:
 
