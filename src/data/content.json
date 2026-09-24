@@ -17,8 +17,7 @@
     "straat": "Jaap Weijandweg 26",
     "postcode": "1862 XL",
     "woonplaats": "Bergen",
-    "_over_kaart": "Link naar Google Maps. Laat leeg (\"\") om de kaartlink helemaal weg te laten.",
-    "kaart_link": "https://www.google.com/maps/search/?api=1&query=Jaap+Weijandweg+26+1862+XL+Bergen"
+    "_over_adres": "Het adres staat NIET op de website. Deze regels worden nergens getoond; ze staan hier alleen bewaard."
   },
   "openingstijden": {
     "_over_openingstijden": "Verander de tijd tussen de aanhalingstekens. Schrijf 'Gesloten' voor een dag dat u dicht bent.",
@@ -103,14 +102,10 @@
     "annulering_kop": "Annuleringsvoorwaarden",
     "annulering_tekst": "Het kan natuurlijk gebeuren dat een afspraak niet door kan gaan. Laat het mij zo spoedig mogelijk weten. Afspraken kunnen kosteloos worden geannuleerd of verzet tot uiterlijk 48 uur vóór de afspraak. Dit omdat de gereserveerde tijd op zo korte termijn helaas niet meer aan een andere cliënt kan worden aangeboden. Ik hoop op uw begrip."
   },
-  "locatie": {
-    "kop": "Locatie",
-    "tekst": "De salon bevindt zich in Bergen NH. Behandeling is uitsluitend op afspraak.",
-    "kaart_link_tekst": "Bekijk op Google Maps"
-  },
   "contact_sectie": {
     "kop": "Contact",
-    "tekst": "Een afspraak maken, verzetten of annuleren kan telefonisch of via WhatsApp. Ik ben ook per e-mail bereikbaar."
+    "tekst": "Een afspraak maken, verzetten of annuleren kan telefonisch of via WhatsApp. Ik ben ook per e-mail bereikbaar.",
+    "op_afspraak": "Behandeling is uitsluitend op afspraak."
   },
   "footer": {
     "voetklachten_tekst": "Voetklachten",

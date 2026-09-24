@@ -5,7 +5,7 @@ import ContactKnoppen from '../components/ContactKnoppen.astro';
 
 const {
   praktijk, contact, openingstijden, hero,
-  over_mij, klachten, tarieven, praktisch, locatie, contact_sectie,
+  over_mij, klachten, tarieven, praktisch, contact_sectie,
 } = content;
 
 const dagen = [
@@ -127,30 +127,12 @@ const omschrijving =
     </div>
   </section>
 
-  {/* ------------------------------------------------------------- locatie */}
-  <section id="locatie">
-    <div class="wrap">
-      <h2>{locatie.kop}</h2>
-      <p>{locatie.tekst}</p>
-
-      <address>
-        {praktijk.bedrijfsnaam}<br />
-        {contact.straat}<br />
-        {contact.postcode} {contact.woonplaats}
-      </address>
-
-      {contact.kaart_link && (
-        <p style="margin-top:1.5rem">
-          <a href={contact.kaart_link} rel="noopener">{locatie.kaart_link_tekst}</a>
-        </p>
-      )}
-    </div>
-  </section>
-
   {/* ------------------------------------------------------------- contact */}
   <section id="contact" class="band">
     <div class="wrap">
       <h2>{contact_sectie.kop}</h2>
+
+      <p class="op-afspraak">{contact_sectie.op_afspraak}</p>
 
       <p>{contact_sectie.tekst}</p>
 

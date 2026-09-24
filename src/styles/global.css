@@ -579,3 +579,11 @@ address { font-style: normal; }
   aspect-ratio: 4 / 5;
   object-fit: cover;
 }
+
+/* "Uitsluitend op afspraak" leads the contact section: the one rule a visitor
+   has to know before picking up the phone. */
+.op-afspraak {
+  font-weight: 600;
+  color: var(--green);
+  font-size: 1.25rem;
+}
